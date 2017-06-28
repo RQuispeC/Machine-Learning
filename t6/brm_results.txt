@@ -1,0 +1,5 @@
+BRM
+"brm{'max_features': 32, 'n_estimators': 800, 'base_estimator': }-0.0798246873152_0_0_GS.pkl"
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,\n       beta_2=0.999, early_stopping=False, epsilon=1e-08,\n       hidden_layer_sizes=(3,), learning_rate='constant',\n       learning_rate_init=0.001, max_iter=200, momentum=0.9,\n       nesterovs_momentum=True, power_t=0.5, random_state=None,\n       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,\n       verbose=False, warm_start=False)
+
+"brm{'max_features': 34, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,\n       beta_2=0.999, early_stopping=False, epsilon=1e-08,\n       hidden_layer_sizes=(3,), learning_rate='constant',\n       learning_rate_init=0.001, max_iter=200, momentum=0.9,\n       nesterovs_momentum=True, power_t=0.5, random_state=None,\n       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,\n       verbose=False, warm_start=False)}-0.0799727312528_1_0_GS.pkl"

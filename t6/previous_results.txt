@@ -1,0 +1,114 @@
+small with 5th validation
+
+standardize = False, pca = False ========================
+K Neastest Neighbors
+	{'n_neighbors': 5} nested mae: 0.08024
+	{'n_neighbors': 5} nested mae: 0.14382
+	{'n_neighbors': 5} nested mae: 0.08823
+	{'n_neighbors': 5} nested mae: 0.0797
+	{'n_neighbors': 5} nested mae: 0.06803
+Mean mae: 0.09201
+Support Vector Machine
+	{'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.08773
+	{'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.11179
+	{'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.08128
+	{'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.07959
+        {'kernel': 'rbf', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.07224
+Mean mae: 0.08653
+Multi Layer Perceptron
+	{'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.1184449921
+	{'solver': 'lbfgs', 'hidden_layer_sizes': (7,)} nested mae: 0.2029376086
+	{'solver': 'lbfgs', 'hidden_layer_sizes': (7,)} nested mae: 0.0932773228
+	{'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.0892897297
+	{'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.0855722365
+Mean mae: 0.1179043779
+Random Forest
+	{'max_features': 5, 'n_estimators': 400} nested mae: 0.06891
+	{'max_features': 7, 'n_estimators': 200} nested mae: 0.13561
+	{'max_features': 7, 'n_estimators': 400} nested mae: 0.06855
+	{'max_features': 7, 'n_estimators': 200} nested mae: 0.07215
+	{'max_features': 5, 'n_estimators': 800} nested mae: 0.071
+Mean mae: 0.08324
+Gradient Boosting Machine
+	{'n_estimators': 70, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.07055
+	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.13524
+	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.07219
+	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.07939
+	{'n_estimators': 70, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.06781
+Mean mae: 0.08504
+
+
+standardize = True, pca = False ========================
+K Neastest Neighbors
+	{'n_neighbors': 5} nested mae: 0.08225
+	{'n_neighbors': 5} nested mae: 0.13934
+	{'n_neighbors': 5} nested mae: 0.08277
+	{'n_neighbors': 5} nested mae: 0.08319
+	{'n_neighbors': 5} nested mae: 0.0724
+Mean mae: 0.09199
+Support Vector Machine
+  {'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.0905727433
+        {'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.1025997608
+  {'kernel': 'rbf', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.086513639
+  {'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.0838141393
+  {'kernel': 'rbf', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.0762119778
+Mean mae: 0.0879424521
+Multi Layer Perceptron
+  {'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.0846056262
+  {'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.1203216211
+  {'solver': 'lbfgs', 'hidden_layer_sizes': (7,)} nested mae: 0.0815309394
+  {'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.086115413
+  {'solver': 'lbfgs', 'hidden_layer_sizes': (20,)} nested mae: 0.0941805868
+Mean mae: 0.0933508373
+        Random Forest
+        	{'max_features': 7, 'n_estimators': 100} nested mae: 0.06865
+        	{'max_features': 7, 'n_estimators': 100} nested mae: 0.13694
+          {'max_features': 7, 'n_estimators': 400} nested mae: 0.06995
+        	{'max_features': 7, 'n_estimators': 100} nested mae: 0.07437
+        	{'max_features': 5, 'n_estimators': 200} nested mae: 0.06994
+        Mean mae: 0.08397
+        Gradient Boosting Machine
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.06827
+        	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.13522
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.07351
+        	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.07752
+        	{'n_estimators': 100, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.06917
+        Mean mae: 0.08474
+
+
+        standardize = False, pca = True ========================
+        K Neastest Neighbors
+        	{'n_neighbors': 5} nested mae: 0.09082
+        	{'n_neighbors': 5} nested mae: 0.15821
+        	{'n_neighbors': 15} nested mae: 0.11459
+        	{'n_neighbors': 5} nested mae: 0.09366
+        	{'n_neighbors': 5} nested mae: 0.09146
+        Mean mae: 0.10975
+        Support Vector Machine
+        	{'kernel': 'linear', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.09695
+        	{'kernel': 'rbf', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.10512
+        	{'kernel': 'linear', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.10083
+        	{'kernel': 'linear', 'C': 0.03125, 'gamma': 3.0517578125e-05} nested mae: 0.09315
+        	{'kernel': 'linear', 'C': 1024, 'gamma': 3.0517578125e-05} nested mae: 0.08713
+        Mean mae: 0.09664
+        Multi Layer Perceptron
+          {'solver': 'lbfgs', 'hidden_layer_sizes': (10,)} nested mae: 0.0935422166
+          {'solver': 'lbfgs', 'hidden_layer_sizes': (7,)} nested mae: 0.1212350349
+          {'solver': 'lbfgs', 'hidden_layer_sizes': (7,)} nested mae: 0.0852497184
+          {'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.0971716571
+          {'solver': 'lbfgs', 'hidden_layer_sizes': (3,)} nested mae: 0.0880576658
+        Mean mae: 0.0970512586
+        Random Forest
+        	{'max_features': 7, 'n_estimators': 800} nested mae: 0.07697
+        	{'max_features': 7, 'n_estimators': 800} nested mae: 0.17195
+        	{'max_features': 5, 'n_estimators': 800} nested mae: 0.08461
+        	{'max_features': 5, 'n_estimators': 100} nested mae: 0.11478
+        	{'max_features': 7, 'n_estimators': 200} nested mae: 0.08087
+        Mean mae: 0.10584
+        Gradient Boosting Machine
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.07758
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.17155
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.0874
+        	{'n_estimators': 100, 'learning_rate': 0.05, 'max_depth': 5} nested mae: 0.1154
+        	{'n_estimators': 70, 'learning_rate': 0.1, 'max_depth': 5} nested mae: 0.08582
+        Mean mae: 0.10755

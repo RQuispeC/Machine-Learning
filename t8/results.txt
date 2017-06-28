@@ -1,0 +1,47 @@
+NEAREST NEIGHBOURS
+
+0.24050864402
+0.0175695759767
+5.91413684657
+OUTLIER 210 749 3.54911264966
+OUTLIER 318 756 5.21026558056
+OUTLIER 464 523 5.61933873423
+OUTLIER 682 384 3.32305029453
+OUTLIER 724 264 4.1122445258
+OUTLIER 799 749 5.7171244564
+OUTLIER 821 747 1.29908044401
+OUTLIER 827 264 5.91413684657
+
+ISOLATION FOREST
+Testing isolation_forest with {'n_estimators': 100, 'contamination': 0.0077177}
+Outlier: 318
+Outlier: 464
+Outlier: 682
+Outlier: 724
+Outlier: 799
+Outlier: 821
+Outlier: 827
+Testing isolation_forest with {'n_estimators': 300, 'contamination': 0.0077177}
+Outlier: 210
+Outlier: 318
+Outlier: 464
+Outlier: 682
+Outlier: 724
+Outlier: 799
+Outlier: 827
+Testing isolation_forest with {'n_estimators': 500, 'contamination': 0.0077177}
+Outlier: 318
+Outlier: 464
+Outlier: 682
+Outlier: 724
+Outlier: 799
+Outlier: 821
+Outlier: 827
+Testing isolation_forest with {'n_estimators': 700, 'contamination': 0.0077177}
+Outlier: 318
+Outlier: 464
+Outlier: 682
+Outlier: 724
+Outlier: 799
+Outlier: 821
+Outlier: 827

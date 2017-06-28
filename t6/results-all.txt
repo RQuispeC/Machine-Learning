@@ -1,0 +1,25 @@
+WORWING ON ex6-train.csv
+standardize = False, pca = False ========================
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(20,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0838261630627_0_0
+standardize = True, pca = False ========================
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(20,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0832216202785_1_0
+
+
+FILE 666_....
+ALL DATASET WITH BAGGING REGRESSOR MACHINE
+
+

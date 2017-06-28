@@ -1,0 +1,102 @@
+WORWING ON small_7000.csv
+standardize = False, pca = False ========================
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(3,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0793654208776_0_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 100, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(7,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.075631976362_0_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 400, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(10,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0749402594025_0_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(20,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0739440655178_0_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 200, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=1, p=2,
+          weights='uniform')}-0.0865248662414_0_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 100, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')}-0.0904608723069_0_0
+Bagging Regressor MachineBagging Regressor Machine
+brm{'max_features': 34, 'n_estimators': 100, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+          weights='uniform')}-0.094888819767_0_0
+Bagging Regressor Machine
+brm{'max_features': 32, 'n_estimators': 400, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=15, p=2,
+          weights='uniform')}-0.0988058628072_0_0
+standardize = True, pca = False ========================
+Bagging Regressor Machine
+brm{'max_features': 34, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(3,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0794542310058_1_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 400, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(7,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0761771603059_1_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 400, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(10,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0751773191231_1_0
+Bagging Regressor Machine
+brm{'max_features': 40, 'n_estimators': 800, 'base_estimator': MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(20,), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='lbfgs', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)}-0.0741852958267_1_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 400, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=1, p=2,
+          weights='uniform')}-0.0871577325682_1_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 200, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+          weights='uniform')}-0.0911361032377_1_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 200, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+          weights='uniform')}-0.0956690406674_1_0
+Bagging Regressor Machine
+brm{'max_features': 10, 'n_estimators': 800, 'base_estimator': KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+          metric_params=None, n_jobs=1, n_neighbors=15, p=2,
+          weights='uniform')}-0.0995321654037_1_0
+
+          
+          
